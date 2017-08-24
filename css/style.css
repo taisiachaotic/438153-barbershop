@@ -1,0 +1,52 @@
+body {
+	font-size: 14px;
+	line-height: 24px;
+	color: #f7f4f1;
+	font-weight: 700;
+	font-family: "PT Sans";
+	background-color: #070707;
+}
+ 
+.features-item h3 {
+	font-size: 30px;
+	line-height: 42px;
+}
+
+.catalog-container h1,
+.news h2,
+.gallery h2,
+.contacts h2,
+.appointment h2 {
+color: #000000;
+font-size: 30px;
+line-height: 42px;
+}
+
+.catalog-item-container h1 {
+color: #000000;
+font-size: 30px;
+line-height: 42px;
+text-transform: uppercase;
+}
+
+.filter legend {
+color: #000000;
+font-size: 24px;
+line-height: 30px;
+}
+
+.login-link img {
+	opacity: 0.3;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
