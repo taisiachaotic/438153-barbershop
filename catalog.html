@@ -3,9 +3,10 @@
 <head>
     <meta charset="utf-8">
     <title>Каталог Барбершоп</title>
-    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="inner-page">
 
 <!--HEADER-->
     <header class="main-header">
@@ -29,7 +30,7 @@
     </header>
 
 <!--MAIN-->
-    <main class="container">
+    <main class="catalog-container">
         <h1>Средства для ухода</h1> 
         
             <ul class="breadcrumbs">
@@ -203,25 +204,39 @@
     </main>
 
 <!--FOOTER-->
-    <footer class="main-footer">
-        <p class="footer-contacts">
+     <footer class="main-footer">
+      <p class="footer-contacts">
         Барбершоп "Бородинский"<br>
         Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
         <a href="map.html">Как нас найти?</a><br>
         Телефон: +7 (812) 666-02-66<br>
-        </p>
-        <div class="footer-social">
-            <b>Давайте дружить!</b>
-            <ul>
-                <li><a class="social-button" href="#">Вконтакте</a></li>
-                <li><a class="social-button" href="#">Фейсбук</a></li>
-                <li><a class="social-button" href="#">Инстаграм</a></li>
-            </ul> 
-        </div>
-        <p class="footer-copyright">
-            <b>Разработано:</b>
-            <a class="button" href="https://htmlacademy.ru">HTML academy</a>
-        </p>      
+      </p>
+      <div class="footer-social">
+        <b>Давайте дружить!</b>
+        <ul>
+          <li>
+            <a class="social-button" href="https://www.vk.com">
+              <div> 
+                <img src="img/vk.svg" width="27px" height="15px" alt="в контакте">  
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="social-button" href="https://www.facebook.com/">
+              <img src="img/facebook.svg" width="27px" height="15px" alt="фейсбук">
+            </a>
+          </li>
+          <li>
+            <a class="social-button" href="https://www.instagram.com">              
+                <img src="img/instagram.svg" width="27px" height="15px" alt="инстаграм">                
+            </a>
+          </li>
+        </ul> 
+      </div>
+      <p class="footer-copyright">
+        <b>Разработано:</b>
+        <a class="button" href="https://htmlacademy.ru">HTML academy</a>
+      </p>      
     </footer>
 
 <!--MODAL-->
